@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/meidas_css.css">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <style type="text/css">
+    .soc-ico{
+      position: fixed;
+      top: 50%;
+      right: 0px;
+      transform: translateY(-50%);
+ }
+    .soc-ico .a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      margin: 0px;
+      padding: 0px;
+      line-height: 0px;
+      color: #fff;
+      border: 1px solid #00a1ff;
+      box-shadow: 2px 2px 12px #000;
+      }
+     .soc-ico i{
+       font-size: 20px;
+       color: #00a1ff; 
+       }
+     .home-home{
+       position: relative;
+       min-height: 100vh;
+      /*background: url(assets/testeum.jpg);*/
+       background-size:cover;
+       background-position: right;
+      /* display: flex; */
+      /* justify-content: space-between; */
+     /*  align-items: center;*/
+      padding: 100px;
+      text-align: center;
+
+   }
+   .home-home h2{font-size: 3em; color: #00a1ff; font-weight: 500;
+    line-height: 1.5em;}
+
+    .home-home h2 span{
+      font-weight: 700;
+      font-size: 1.5em;
+
+    }
+    .home-home h3{font-size: 1.5em; color: #f67; font-weight: 500;}
+    .t{color: #fff;}
+    .t:hover{color: red;}
+    .botao{
+      position: relative;
+      background: #00a1ff;
+      display: inline-block;
+      color: #fff;
+      margin-top: 20px;
+      padding: 10px 30px;
+      font-size: 18px;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 2px;
+      font-weight: 500;
+      border-radius: 24px;
+    }
+    </style>
+    <title>Eu</title>
+</head>
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header" style="box-shadow: 2px 2px 2px #000">
+    <nav class="nav bd-grid">
+      <div><a href="#" class="nav__logo">Mardeson</a></div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list" style="background-color: transparent;">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre-me</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">xp</a></li>
+                    <li class="nav__item"><a href="#others" class="nav__link">Others</a></li>
+                         <!--   <input id="switch" type="checkbox" name="theme">
+            <label for="switch">Toggle</label> -->
+              
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+      
+      <section class="home-home" id="home" >
+  <div class="txt" style="margin-top: 50px;">
+    <h2>WHO ARE YOU?<br class="br"><span class="t">I,M</span></h2>
+    <h3>MARDESON</h3>
+    <a href="#about" class="botao">Sobre-me</a>
+  </div>
+   
+</section>
+        
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title" >Sobre-me</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/l.png" alt="author">
+                </div>
+
+                <div style="box-shadow: 5px 5px 10px #000; text-align: center;">
+                    <h2 class="about__subtitle">ola, eu sou Mardeson</h2>
+                    <span class="about__profession">estudante de T.I</span>
+                    <p class="about__text" >(<span style="color: #FFD700;">"ola, sou um estudante de tecnologia e criei essa mini apresentacao em virtude de e conhecimentos na area de desenvolvimento, a em um curso tecnico de T.I."</span>);</p>
+                 
+                </div>
+                    <div style=" color: #fff;  text-align: center; box-shadow: 5px 5px 10px #000; ">
+                    <h2 class="about__subtitle">...</h2>
+                    <span class="about__profession" >Só isso?</span>
+                     <p class="about__text" >(<span style="color: #FFD700;">"Bom, para trocar ideias sobre a area de T.I e outros conhecimentos 
+    aos quais eu gosto, ao decorrer dessa apresentacao voce 
+    conhecer mais a mim."</span>);</p>
+               
+                </div>
+
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills" >
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid" >
+                <div class="skills__box ">
+                    <h3 class="skills__subtitle" style="box-shadow: 2px 2px 5px #000;">Back-end</h3>
+                    <span class="skills__name">java</span>
+                    <span class="skills__name">python</span>
+                    <span class="skills__name">node.js</span>
+                                            
+                    <h3 class="skills__subtitle" style="color:#fff; box-shadow:  2px 2px 5px #000;">Front-end</h3>
+                    <span class="skills__name">react</span>
+                    <span class="skills__name">Bootstrap</span>
+                    <span class="skills__name">css</span>
+
+                     <h3 class="skills__subtitle" style="box-shadow:  2px 2px 5px #000;">Mobile</h3>
+                    <span class="skills__name">react-native</span>
+
+                    
+                </div>
+
+
+                <div class="skills__img">
+                    <img src="assets/imagemBack.png" alt="">
+
+                </div>
+            
+
+            </div>
+
+        </section>
+        
+
+     
+
+        <!--===== PORTFOLIO =====-->
+        <section class="portfolio section" id="portfolio" >
+            <h2 class="section-title">Portfolio</h2>
+
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__img" style="border-radius: 24px; box-shadow: 4px 4px 6px #000;">
+                    <img src="assets/pe.png"  alt="">
+
+                    <div class="portfolio__link">
+                        <a class="portfolio__link-name" href="https://github.com/marudeson/Help-force"
+                        target="_black">colocando em praticas conhecimentos adquiridos com o ecossistema javascript. tecnologias usadas : ReactJs , NodeJs , sqlite</a>
+                          
+                    </div>
+                </div>
+               
+                <div class="portfolio__img" style="border-radius: 24px; box-shadow: 4px 4px 6px #000;">
+                    <img src="assets/Cc.jpg" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/marudeson/CarimbaClubs.git" target="_black" class="portfolio__link-name">projeto com foco no back-end. tecnologias usadas Java, Sql , Bootstrap</a>
+                    </div>
+                </div>
+                
+       
+            </div>
+        </section>
+    
+        <section class="pai" id="others">
+            
+        <div style="color:#fff; "  class="section">
+            <h2 class="section-title">outros</h2>
+
+            
+
+      <div class="container">
+          <div class="card">
+              <div class="imgbx">
+                  <img src="assets/chu.png" />
+             </div>
+             <div class="content">
+                 <div style="text-align: center;">
+
+                     <h3>Tcg Judge.</h3>
+                     <p>hey!! que bom voce chegou a esse topco. bom, card game é um hoobby meu, sempre que tenho tempo 
+                            me atualizo de tudo desse universo, felimente entrei para o programas de juizes de um deles. cards que eu jogo : Yu-gi-oh!! , pokemon , magic.</p>
+                 </div>
+
+             </div>
+          </div>
+          <div class="card">
+            <div class="imgbx">
+                <img src="assets/lapis.png" />
+           </div>
+           <div class="content">
+               <div style="text-align: center;">
+                   <h3>Tcg Judge.</h3>
+                     <p>hey!! que bom voce chegou a esse topco. card game é um hoobby meu, sempre que tenho tempo 
+                            me atualizo de tudo desse universo, felimente entrei para o programas de juizes de um deles. cards que eu jogo : Yu-gi-oh!! , pokemon , magic.
+
+                     </p>
+               </div>
+
+           </div>
+        </div>
+        <div class="card">
+            <div class="imgbx">
+                <img src="assets/mar.png" />
+           </div>
+           <div class="content">
+               <div style="text-align: center;">
+                    <h3>Tcg Judge.</h3>
+                     <p>hey!! bom esse é meu hobby e o que me tornou juiz de tcg, gosto muito de jogar card game no meu tempinho livre.</p>
+               </div>
+
+           </div>
+        </div>
+
+        <div class="card">
+            <div class="imgbx">
+                <img src="assets/ket.png" />
+           </div>
+           <div class="content">
+               <div style="text-align: center;">
+                    <h3>Tcg Judge.</h3>
+                     <p>hey!! bom esse é meu hobby e o que me tornou juiz de tcg, gosto muito de jogar card game no meu tempinho livre.</p>
+               </div>
+
+           </div>
+        </div>
+        
+        
+      </div>
+                    
+     </section>
+
+      </div>
+    </main>
+    
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section" style="background-color: #252627;">
+        
+        <div class="about__social" style="text-align: center;">
+            <a href="https://br.linkedin.com/in/mardeson-souza-lemos-69a4a81a7" target="_black" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/marudeson" target="_black" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+          
+            
+            <a href="https://twitter.com/mardeson11" target="_black" class="about__social-icon"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <p style="text-align: center;">© Mardeson 2020 </p>
+          
+        
+    </footer>
+    <div class="soc-ico">
+      
+      <a href="https://github.com/marudeson" target="_black" class="a"><i class='bx bxl-github' ></i></a>
+      <a href="https://twitter.com/mardeson11" target="_black" class="a"><i class='bx bxl-twitter' ></i></a>
+       <a href="https://br.linkedin.com/in/mardeson-souza-lemos-69a4a81a7" target="_black" class="a"><i class='bx bxl-linkedin' ></i></a>
+
+       </div>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== Arquivos Js =====-->
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
+
+
